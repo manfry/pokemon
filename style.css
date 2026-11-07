@@ -160,7 +160,7 @@
        background: #111120;
        color: var(--text);
        font: inherit;
-       font-size: 1rem;
+       font-size: 1.2rem;
        transition: border-color .2s, box-shadow .2s;
    }
 
