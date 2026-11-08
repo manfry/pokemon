@@ -123,7 +123,7 @@
        place-items: center;
        width: 100%;
        aspect-ratio: 1 / 1;
-       margin: 20px 0;
+       margin: 10px 0;
        overflow: hidden;
        border-radius: 20px;
        background: #fff;
@@ -138,7 +138,7 @@
 
    label {
        display: block;
-       margin: 0 0 9px;
+       margin: 4px 0 4px;
        text-align: left;
        font-size: .9rem;
        font-weight: 700;
@@ -197,7 +197,7 @@
 
    .feedback {
        min-height: 25px;
-       margin: 13px 0 0;
+       margin: 8px 0 0;
        font-size: .92rem;
        font-weight: 700;
    }
@@ -225,7 +225,9 @@
        .answer-row {
            flex-direction: column;
        }
-
+       #pokemonName{
+         min-height: 50px;
+       }
        button {
            width: 100%;
        }
